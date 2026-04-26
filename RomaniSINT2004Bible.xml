@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html translate="no"><head><title>Beblia</title><script src="Scripts/main.min.gde5d2xjpz.js"></script>
+            <script src="Scripts/defer.min.iv68ekummo.js" defer></script><link rel="stylesheet" href="beblia.h881og9hwj.styles.css" />
+
+
+    <style>
+        /* Webkit Needs to Be here to Work */
+        h1 {
+            margin: 0;
+            padding: 0;
+            line-height: 0.3em; /* Need this */
+            border: none;
+            font-weight: normal;
+            outline: none; /*Prevent Border on Page Reload*/
+        }
+
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.50);
+            border-radius: 10px;
+        }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgba(0, 0, 0, 0.60);
+            }
+
+        ::-moz-selection {
+            /*Text Selection Background Color*/
+            background: rgba(150, 150, 150, 0.3);
+        }
+
+        ::selection {
+            /*Text Selection Background Color*/
+            background: rgba(150, 150, 150, 0.3);
+        }
+
+        th, td {
+            /*Padding for Tables Global Value*/
+            padding: 0px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        input[type=range] {
+            -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+        }
+
+            input[type=range]::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                border-width: 1px;
+                border-color: black;
+                border-radius: 20px;
+                border: solid;
+                height: 20px;
+                width: 20px;
+                margin-top: -8px;
+                border-radius: 30px;
+                background: white;
+                cursor: pointer;
+                -moz-box-shadow: 0 0 8px #ccc;
+                -webkit-box-shadow: 0 0 8px #ccc;
+                box-shadow: 0 0 8px #ccc;
+            }
+
+            input[type=range]::-webkit-slider-runnable-track {
+                width: 100%;
+                height: 6px;
+                cursor: pointer;
+                background: black;
+                border-radius: 10px;
+                border: 0.2px solid #010101;
+            }
+
+            input[type=range]::-moz-range-track {
+                width: 100%;
+                height: 6px;
+                cursor: pointer;
+                background: black;
+                border-radius: 10px;
+                border: 0.2px solid #010101;
+            }
+
+
+        @media print {
+            .no-print, .no-print * {
+                display: none !important;
+            }
+        }
+
+        body {
+            max-width: 800px;
+            margin: auto;
+            padding: 0px;
+            overflow-x: hidden;
+        }
+
+    </style>
+
+    
+
+    
+    <meta charset="utf-8">
+    <meta name="google" content="notranslate">
+
+    
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <base href="/">
+
+    
+    <link id="manifest_ID" rel="manifest">
+
+    
+    <meta name="robots" content="index, follow">
+
+    
+    <meta name="googlebot" content="notranslate">
+
+    
+    <link rel="canonical" id="canonical_ID">
+
+    <meta name="author" content="Slave of Christ - John 1:27">
+    <meta name="theme-color" content="white">
+    <meta name="mobile-web-app-capable" content="yes">
+
+
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="img/manifest/57.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/manifest/76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/manifest/120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/manifest/152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/manifest/167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/manifest/180.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="img/manifest/192.png">
+    <link rel="apple-touch-icon" sizes="196x196" href="img/manifest/196.png">
+    <link rel="apple-touch-icon" href="img/manifest/196.png"> 
+    
+    <link rel="mask-icon" href="img/svg/appleMaskIcon.svg" color="black">
+
+
+    
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+
+
+
+    
+    <link rel="icon" href="/img/svg/196.svg" type="image/svg+xml">
+
+
+
+    
+    <meta name="msapplication-starturl" content="/">
+    
+
+
+    
+    <link rel="android-touch-icon" href="img/svg/196.svg">
+    
+
+
+
+    
+
+    
+
+
+    
+
+    
+    <script type="importmap">{
+  "imports": {
+    "./Scripts/bible.js": "./Scripts/bible.i88sctdx7w.js",
+    "./Scripts/bible.min.js": "./Scripts/bible.min.7mye79fhkn.js",
+    "./Scripts/codeNotUsed.js": "./Scripts/codeNotUsed.62qs16mfii.js",
+    "./Scripts/defer.js": "./Scripts/defer.aw0niisdur.js",
+    "./Scripts/defer.min.js": "./Scripts/defer.min.iv68ekummo.js",
+    "./Scripts/lazyLoad.min.js": "./Scripts/lazyLoad.min.0h6b11q4b9.js",
+    "./Scripts/main.min.js": "./Scripts/main.min.gde5d2xjpz.js",
+    "./Scripts/main.js": "./Scripts/main.slysbnnp55.js",
+    "./Scripts/metrika.min.js": "./Scripts/metrika.min.w42jl84nto.js",
+    "./Scripts/metrika.js": "./Scripts/metrika.r1gbxfkvmd.js",
+    "./_framework/blazor.server.js": "./_framework/blazor.server.4ydj1pqe10.js",
+    "./_framework/blazor.web.js": "./_framework/blazor.web.6rjll45mpu.js",
+    "./serviceWorker.js": "./serviceWorker.gpizrjmos4.js"
+  },
+  "integrity": {
+    "./Scripts/bible.i88sctdx7w.js": "sha256-Trey/83YbF/YlV99IYpRxDZIisi61QzcBGelRKW5w1g=",
+    "./Scripts/bible.js": "sha256-Trey/83YbF/YlV99IYpRxDZIisi61QzcBGelRKW5w1g=",
+    "./Scripts/bible.min.7mye79fhkn.js": "sha256-Qf5t4yZCrvCruDgRfCMC5A8+siI/TplCZwQ9OGmwHuQ=",
+    "./Scripts/bible.min.js": "sha256-Qf5t4yZCrvCruDgRfCMC5A8+siI/TplCZwQ9OGmwHuQ=",
+    "./Scripts/codeNotUsed.62qs16mfii.js": "sha256-EvQ2WpHIB5iNn/XC++HC/SsWvyRU8wDiytxmEm+9R2Q=",
+    "./Scripts/codeNotUsed.js": "sha256-EvQ2WpHIB5iNn/XC++HC/SsWvyRU8wDiytxmEm+9R2Q=",
+    "./Scripts/defer.aw0niisdur.js": "sha256-Sj7G8yQ3YVQ9F2EZ5e9o4f1zqXw1UHupxYd+518Uq9g=",
+    "./Scripts/defer.js": "sha256-Sj7G8yQ3YVQ9F2EZ5e9o4f1zqXw1UHupxYd+518Uq9g=",
+    "./Scripts/defer.min.iv68ekummo.js": "sha256-ztKEZKlX7S1oDVi440dcCJuh71Wdpode9KZclwsUBwc=",
+    "./Scripts/defer.min.js": "sha256-ztKEZKlX7S1oDVi440dcCJuh71Wdpode9KZclwsUBwc=",
+    "./Scripts/lazyLoad.min.0h6b11q4b9.js": "sha256-hNp7JfSx3PQ8Ag2KbKBGiOc3XFWxHIJ9SiFUurwhk9Q=",
+    "./Scripts/lazyLoad.min.js": "sha256-hNp7JfSx3PQ8Ag2KbKBGiOc3XFWxHIJ9SiFUurwhk9Q=",
+    "./Scripts/main.js": "sha256-0Ap1g8mCNbCcJobwNvZvK8qqqnBYJfTaaY32Vu5XRP4=",
+    "./Scripts/main.min.gde5d2xjpz.js": "sha256-/OJkeftgWZjq+YBzTMkCzlWddVmr1S6B4EoTMGz2EHY=",
+    "./Scripts/main.min.js": "sha256-/OJkeftgWZjq+YBzTMkCzlWddVmr1S6B4EoTMGz2EHY=",
+    "./Scripts/main.slysbnnp55.js": "sha256-0Ap1g8mCNbCcJobwNvZvK8qqqnBYJfTaaY32Vu5XRP4=",
+    "./Scripts/metrika.js": "sha256-/4ImGh7bcnEg/MFWKgtb7OprETNl0SrWh0WPpdsklNc=",
+    "./Scripts/metrika.min.js": "sha256-kOYN7jTsBEsDjUyU77v7Nf+Tm/58c7NjgqX7t+e4Mv4=",
+    "./Scripts/metrika.min.w42jl84nto.js": "sha256-kOYN7jTsBEsDjUyU77v7Nf+Tm/58c7NjgqX7t+e4Mv4=",
+    "./Scripts/metrika.r1gbxfkvmd.js": "sha256-/4ImGh7bcnEg/MFWKgtb7OprETNl0SrWh0WPpdsklNc=",
+    "./_framework/blazor.server.4ydj1pqe10.js": "sha256-pG3+a6GqTGiLmxe5idHXdNc2ep1VAe9Qdj7QsFdp0u0=",
+    "./_framework/blazor.server.js": "sha256-pG3+a6GqTGiLmxe5idHXdNc2ep1VAe9Qdj7QsFdp0u0=",
+    "./_framework/blazor.web.6rjll45mpu.js": "sha256-vhOmTvkBGHj5Y03SvHNMwi9ub3Oi9tEjxGyN0IiCDrU=",
+    "./_framework/blazor.web.js": "sha256-vhOmTvkBGHj5Y03SvHNMwi9ub3Oi9tEjxGyN0IiCDrU=",
+    "./serviceWorker.gpizrjmos4.js": "sha256-dNCk0LdtbXUmP5KaRJLyzLFEDSDhVBuaPjJrzuFHNkY=",
+    "./serviceWorker.js": "sha256-dNCk0LdtbXUmP5KaRJLyzLFEDSDhVBuaPjJrzuFHNkY="
+  }
+}</script>
+    
+
+    <!--Blazor:{"type":"server","prerenderId":"66079ede900f448a8ba79fb3c6842910","key":{"locationHash":"77D12F14A8105320B1AAED6AE7E689DA0EC4483270A645E84079EAA0FFDF550D:27","formattedComponentKey":""},"sequence":0,"descriptor":"CfDJ8IZYW7Gha3BNvoBZBq1d54EB5MjY3VO7KSAPT5eUtlbv5FlhQytgSRv7M1vdlCPOr0vgBNAR7lOs7vrRnRJjPk42B6GMVYzCGiELhz\u002BRJ3AThTUNkU1JGWgpCtwqt7aFV5ukeZz8qcs\u002BmFjmFvQF\u002BYWrG3UxVThr9J6w412zGocMdzkDifpYDeLddt0z\u002BIFr/fXHrwvtr127MnpKlU00eeOoDoLlvFWm9tm\u002ByKU1EcCrIlzMkXiua\u002BMozBuUwhJFY\u002BXuX8ZJxJAv15XmcieRUofSPkF2Jv/zr6NhzCpt7kLMQ4x1EYnZhw83JqnZk1Q3xCnQrjEnxI3niYPqjSgRjWF/Y6YJhyoULZNQdut\u002BmgY/5ftYwFM2GnhX9/XMItY0GU9IXm6gE5oxXikPRLxJzsMHbpWH9KvycTbt7hoH6F/jeZuJziKfjA4qQTx1I9V9Abdl3C4CRLGTN7YC0S6oSIMiwcnB11yMCGoWerylaMOah\u002BNAP7vxvKcc9Xt7YWhxAFFwe2cjupDdx1o5QtBvmiHgelMt\u002BdxtMP8WI8XDnDiTYdGD5OBQqyDrjE70kG5iu3pfx6Oo\u002BxnKKYToSGg49iY="}--><!--Blazor:{"prerenderId":"66079ede900f448a8ba79fb3c6842910"}--></head>
+
+
+
+<body><!--Blazor:{"type":"server","prerenderId":"9ab3eb33b4d3472d935649d6c456ed79","key":{"locationHash":"A9F0B526E8F9EA417D1ACBBFCF3F1C93421122DD57A68FBAB757196A36AF92A7:30","formattedComponentKey":""},"sequence":1,"descriptor":"CfDJ8IZYW7Gha3BNvoBZBq1d54GSREpXYXd74lSuG56dmHdffv6NcMTQPjt1pvJD7vr1XQ9BJbBHWCfuyimcb8PWHvKIAGAne2KzVJZ0yN03onJc7GzLOhovUFoHLsZ\u002BNJZuc6W2sQJd5NQGqalylWdRMInVV9Qsf8A6HfH8dwD3LT\u002BdyDo7yy/Ovh2YaJizKtX\u002BGC6r31skchR8NJ297vJJfRwySiam8me9rsT15ZC7tk90BOCD2s0x64rKYXdVnw5qm5nUiTcSjYrLs4C2wU9AXNItc0G0Oe2h6yL5WOdlNJ7WKiDLoessTPg9R4Fdni7e5GEwTqG2N7Q3G7yLZeTbVD2TMSkHlhuk2jG8kaf83N7YDthquYsYncxbbER59cH2mchrcWo7U\u002BAHBDy5QKj8tbkNk31RspIepnb2kCNGTjjdlSOVGZ9iCcZ88kGLx7wyJb/g4ykiI7HkTdFjDbX5l0uuHJ6JeFDJ12\u002Bqfzx\u002BNP331YIae/UasR8OGfkuHDG6gXNhjIaZ3Th6QheT5oWVjs8="}--><main style="display: none; background-color: ; border:solid; border-top-width: 1px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-color: black; z-index: 100;" b-uxzkz9pv2m><div id="recentRead_Div" class="recentRead_Div" b-uxzkz9pv2m><svg viewBox="0 0 510 510" class="recentRead_CloseButton" onclick="recentRead_Close_Clicked()" b-uxzkz9pv2m><path d="M437.1 75A256.4 256.4 0 0075 75C26.6 123.2 0 187.5 0 256s26.6 132.7 75 181c50 50 115.5 75 181 75s131.2-25 181.1-75a256.4 256.4 0 000-362zm-28 334a216.7 216.7 0 01-306 0c-41-40.9-63.4-95.2-63.4-153S62.2 144 103 103a216.7 216.7 0 01306 0 216.7 216.7 0 010 306z" b-uxzkz9pv2m></path>
+                <path d="M341.5 310.8l-56.1-56 56.1-56.1a19.9 19.9 0 00-28-28l-56.2 56-56.2-56a19.8 19.8 0 10-28 28l56.1 56-56.1 56.1a19.8 19.8 0 1028 28l56.2-56 56.2 56a19.8 19.8 0 0028 0 19.8 19.8 0 000-28z" b-uxzkz9pv2m></path></svg>
+
+            <table id="recentRead_Table" style="z-index: 101; width: 100%; text-align:center; padding-bottom: 200px;" b-uxzkz9pv2m><tr b-uxzkz9pv2m><td b-uxzkz9pv2m></td></tr></table></div></main>
+        <!--Blazor:{"prerenderId":"9ab3eb33b4d3472d935649d6c456ed79"}-->
+    <script src="_framework/blazor.web.6rjll45mpu.js" autostart="false"></script>
+
+    <script>
+        // More Info Here
+        // https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?view=aspnetcore-10.0
+        Blazor.start({
+            reconnectionOptions: {
+                maxRetries: 1 // Auto Reconnect Attempt Tries
+            },
+            reconnectionHandler: {
+                onConnectionLost: () =>
+                {
+                    location.reload();
+                },
+                onConnectionRestored: () =>
+                {
+                    // Optional: handle successful reconnection if needed
+                }
+            }
+        });
+    </script></body></html><!--Blazor-Server-Component-State:CfDJ8IZYW7Gha3BNvoBZBq1d54FsNYolGQLrN4zeCKVzFIHg45IMrBAE6LIP9sbNNNwLMP4AAtYZsD5tXjOh1pbp1YZ+KxuXxd/S+SJY5rRtQFX5iibdrCubYp5l4O5TgjcYDrQkiKJCOnwmocn2S3yqlkPRFqB++75lEahrzB7hSVrSwPiQmSgDy8fgxlaLoWYqT2Gco/Skl9tlI57fwbc1j51OeN9KlEGzia5tpES5dzVbKXcywoK6+VASHJ8ksPRuiMR/QPfCuOVTyp5LiGhfsPb7lSV+e7oIlejJlU3u2qGppKN70GuaUra+Xjuv0nquFP13v2PbVLqK4Nvthrp5852Y7x1sXnGCSaFr41qRY6pW6Z3fBTobyCWuMeaujUu8VQRK8oDPcXwRM7tSbQPt8QBqZXANjwWUgofycPeAlmslriE3k64nalZpPNhXtLdeCjl9uf99SIZasko2KnSa/QJORLkQ66Ffd3d8M+0PG9NvBQ+VicZTCVoRmimBfUM0XtqoBbS6oWlNYW+anifuUR0orCpTSKjgGa34SVvQ3xc9gfrxS+ykkO1OY5iKWsBspm7iUAn9tEJ/dYAW5WAvxwBJjD2QJYrnaQA4+zidO8ZeCiV8IPvypLeK9FP/viB8bwmoQS8jZG0H5XGRjNETvTW7u+orY+DZaImuokPfnchGWKVdtKjHRtYBWMa5NUA/M4QwRRgkyTXcHFNuoRz9rlvo9rCHQiqFoRkY382fZVnciQHkAYUFV+JzGkbxLceKvo3x2YyforltHoo4XHs2m6x7anNjJ0KSNppzCbtOb6UueJ0pqSI49KjNVxrAa3zxCbT6cuuQQJhqxBmB3bP0XFOXvgsBpbiSipekXe187Lutl1xzL5ydnZx1m19YYeaoF/Rx56iP+nTCsu2Vba3eSdUv9uSE9FN0qi+lipYmmzwTdmHo4c6b7PNGxrFiaYTErcqQFdHEuwTJ42d9kG4ZlCSy9Xhh2uFTEGeU+ZzGHL5lFAMkpFGjPjmrGgEjEzlPh3fzFni9h+J4TFzdvat78KQlxew0MS82mb11r0KreGXEP1f+b1foyUUcl4MHCoHA16Hc/7mschYabjO758p518cySPCbiGq9SrcomB4RXsyM4j/mY0zQnQHXNqaUY1Dz0g==-->
